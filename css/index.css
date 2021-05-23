@@ -1,0 +1,114 @@
+body{
+	display: flex;
+	justify-content: center;
+}
+main{
+	width: 960px;
+	background-image: url("../img/ar.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+header{
+	border-bottom: 2px solid #EF4836;
+}
+article{
+	width: 100%;
+	text-align: center;
+}
+/* logo */
+#logo{
+	width: 250px;
+	height:105px;
+}
+.border{
+  border: 2px solid #EF4836;
+}
+/* Menu*/
+.slider{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.slider ul{
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin: 10px 20px;
+}
+.slider ul li a{
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #222;
+}
+/* on insert une image au slider*/
+.slider img{
+	width: 100%;
+}
+/*on modifie les éléments article */
+h2{
+	color: #fff;
+}
+aside{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+aside section{
+	margin:5px;
+    padding: 5px;
+	width: 200px;
+	border: 2px solid #EF4836;
+}
+aside section img{
+	width: 100%;
+}
+/* on va faire des modifications sur les paragraphes */
+p{
+	color:#fff;
+	font-size: 1em;
+	background: #C0392B;
+	text-align: justify; 
+}
+.lien{
+    color:#F5B041;
+    text-decoration: none;
+    background: #515A5A;
+    border-radius: 15px;
+	border: 1px solid #000;
+    
+}
+.lien:hover{
+	color:blue;
+}
+/*Social footer */
+.social-icons a{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:20px 10px;
+	background-color: #959596;
+}
+.social-icons{
+	display: flex;
+	justify-content: center;
+	margin:10px;
+
+}
+.social-icons a i{
+	color: #000;
+}
+.social-icons a:hover{
+   background-color: #111;
+   box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+   transition: all ease 0.5s;
+}
+.social-icons a:hover i{
+	color: #fff;
+}
